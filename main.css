@@ -13,12 +13,25 @@ header {
     position: relative }
 
 header h1 {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    letter-spacing: 3px;
+    }
+
+header p {
     margin: 0;
     position: absolute;
-    top: 30%;
-    left: 25%;
-    margin-right: -62%;
-    transform: translate(-62%, -62%) }
+    top: 85%;
+    left: 6%;
+    letter-spacing: 4px;
+    word-spacing: 40px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
 
 h2 {
   font-size: 75%;
@@ -27,6 +40,7 @@ h2 {
 
 p {
   margin: 20;
+
 }
 
 footer {
