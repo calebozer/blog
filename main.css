@@ -1,0 +1,35 @@
+body {
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 31.3em;
+    border: 10px solid black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 10em;
+    position: relative }
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    margin-right: -62%;
+    transform: translate(-62%, -62%) }
+
+h2 {
+  font-size: 75%;
+  margin: 15;
+}
+
+p {
+  margin: 20;
+}
+
+footer {
+  text-align: right;
+  margin: 5
+}
