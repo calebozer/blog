@@ -1,49 +1,62 @@
 body {
-    background-color: lightgrey;
+    background-image: url("apocolypse.jpg");
     margin-left: auto;
     margin-right: auto;
     width: 31.3em;
-    border: 10px solid black;
 }
 
 header {
     background-color: black;
-    color: white;
+    color: green;
     height: 10em;
-    position: relative }
+    opacity: .9;
+    }
 
 header h1 {
-    position: absolute;
-    top: 20%;
-    left: 11%;
-    letter-spacing: 3px;
+    position: relative;
+    top: 30.75%;
+    left: 9.75%;
+    letter-spacing: 4px;
     }
 
 header p {
-    margin: 0;
-    position: absolute;
-    top: 85%;
-    left: 6%;
+    position: relative;
+    top: 47.5%;
+    left: 1.5%;
     letter-spacing: 4px;
     word-spacing: 40px;
-}
+    }
 
 a {
-  color: grey;
-  text-decoration: none;
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    background-color: darkgrey;
+    opacity: 0.7;
+    margin: 0;
+    height: auto;
 }
 
 h2 {
-  font-size: 75%;
-  margin: 15;
+  font-size: 100%;
+  margin: 20;
+  opacity: 1;
 }
 
 p {
   margin: 20;
+  opacity: 1;
+}
 
+img {
+  margin: 0;
 }
 
 footer {
   text-align: right;
-  margin: 5
+  background-color: black;
+  color: white;
+  border: solid 5px black;
 }
